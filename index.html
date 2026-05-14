@@ -152,7 +152,7 @@
   }
   .pattern-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
   .pattern-left   { display: flex; align-items: center; gap: 14px; }
-  .pattern-emoji  { font-size: 32px; }
+  /* .pattern-emoji  { font-size: 32px; } */
   .pattern-eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 1px;
     text-transform: uppercase; margin-bottom: 4px; }
   .pattern-name   { font-size: 20px; font-weight: 800; color: var(--text-1); }
@@ -513,7 +513,7 @@ function renderMain(s, result, pat) {
     <div class="pattern-card fade-in" style="background:${pat.lightBg};border-color:${pat.border}">
       <div class="pattern-header">
         <div class="pattern-left">
-          <div class="pattern-emoji">${pat.emoji}</div>
+          // <div class="pattern-emoji">${pat.emoji}</div>
           <div>
             <div class="pattern-eyebrow" style="color:${pat.color}">Detected Pattern</div>
             <div class="pattern-name">${result.name}</div>
